@@ -24,6 +24,9 @@
     color: $couleur1;
     font-size: 60px;
 }
+
+        // Fin de la section story
+        // Début de la section menu
 #titreMenu{
     background-color: white;
     width: 90%;
@@ -32,14 +35,62 @@
         font-family: courgette;
         font-size: 50px;
     }
-    button:focus{
-        border-right: red solid 1px;
-        border: none;
+    
+}
+
+
+
+.familyCourg{
+    font-family: courgette;
+    font-size: 30px;
+}
+
+.list-group-item-action:focus{
+    color: red;
+}
+
+.menulist{
+    display: flex;
+    flex-wrap: wrap;
+    h4{
+        max-width: max-content;
+    }
+    p{
+        width: 70%;
+    }
+    
+}
+
+.argent{
+    display: flex;
+    align-items: center;
+    span{
+        padding: 10px;
+        background-color: lightgray;
+        font-size: 20px;
+        color: red;
     }
 }
 
+.colMenu{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+
+}
+
+
+
+.imgMenu{
+    border: 5px solid lightgray;
+    border-radius: 50%;
+    height: 140px;
+}
 
 .fa-mug-hot, .fa-hamburger, .fa-concierge-bell{
     font-size: 70px;
     color: rgb(131, 131, 131);
 }
+
+

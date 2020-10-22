@@ -2,7 +2,7 @@ header{
     background: linear-gradient(
             rgba(0, 0, 0, 0.75), 
             rgba(0, 0, 0, 0.75)),url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/banner1.jpg");
-    height: 100vh;
+    height: max-content;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -53,6 +53,12 @@ header{
         color: white;
 
     }
+}
+
+.bgheaderfin{
+    background: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/bottom_decoration_img.png");
+    height: 10px;
+    width: 100%;
 }
 
 .carousel-control-next{
