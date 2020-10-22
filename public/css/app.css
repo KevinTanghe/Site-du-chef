@@ -1,3 +1,8 @@
+@font-face {
+  font-family: courgette;
+  src: url(../../public/fonts/courgette/Courgette-Regular.ttf);
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -15771,4 +15776,78 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/banner1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+header a {
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+header a:hover {
+  background-color: #c53a41;
+}
+
+header h1 {
+  font-family: courgette;
+  padding-top: 120px;
+  width: 40%;
+  font-size: 55px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+header h1 .span1 {
+  font-size: 80px;
+}
+
+header h1 .span2 {
+  font-size: 100px;
+  color: #c53a41;
+}
+
+header h1 .span3 {
+  font-size: 100px;
+}
+
+header h1 .span4 {
+  font-size: 100px;
+}
+
+header .bouton1 {
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+}
+
+header .bouton2 {
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #c53a41;
+  color: white;
+}
+
+nav a {
+  padding: 25px !important;
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+  text-align: center;
+}
+
+.boxlogo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.boxhead {
+  flex: 11;
 }

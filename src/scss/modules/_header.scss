@@ -1,0 +1,73 @@
+header{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.75), 
+            rgba(0, 0, 0, 0.75)),url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/banner1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    a{
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+    }
+
+    a:hover{
+        background-color: $couleur1;
+    }
+
+    h1{
+        font-family: courgette;
+        padding-top: 120px;
+        width: 40%;
+        font-size: 55px;
+        margin: auto;
+        padding-bottom: 50px;
+        .span1{
+            font-size: 80px;
+        }
+        .span2{
+            font-size: 100px;
+            color: $couleur1;
+        }
+        .span3{
+            font-size: 100px;
+        }
+        .span4{
+            font-size: 100px;
+            
+        }
+    }
+    .bouton1{
+        padding: 20px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    .bouton2{
+        padding:20px;
+        border-radius: 50px;
+        border: none;
+        background-color:$couleur1;
+        color: white;
+
+    }
+}
+
+nav{
+    a{
+        padding: 25px !important;
+        padding-right: 35px !important;
+        padding-left: 35px !important;
+        text-align: center;
+    }
+}
+
+.boxlogo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.boxhead{
+    flex: 11;
+}
