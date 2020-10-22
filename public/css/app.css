@@ -15798,7 +15798,7 @@ header a:hover {
 header h1 {
   font-family: courgette;
   padding-top: 120px;
-  width: 40%;
+  width: 45%;
   font-size: 55px;
   margin: auto;
   padding-bottom: 50px;
@@ -15833,6 +15833,14 @@ header .bouton2 {
   border: none;
   background-color: #c53a41;
   color: white;
+}
+
+.carousel-control-next {
+  border: none;
+}
+
+.carousel-control-prev {
+  border: none;
 }
 
 nav a {
