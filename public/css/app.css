@@ -15859,3 +15859,53 @@ nav a {
 .boxhead {
   flex: 11;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  header a {
+    border: none;
+  }
+  header h1 {
+    font-size: 30px;
+    width: 80%;
+  }
+  header h1 .span1 {
+    font-size: 50px;
+  }
+  header h1 .span2 {
+    font-size: 70px;
+  }
+  header h1 .span3 {
+    font-size: 50px;
+  }
+  header h1 .span4 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .boxlogo {
+    order: 1;
+  }
+  header {
+    height: max-content;
+  }
+  header a {
+    border: none;
+  }
+  header h1 {
+    font-size: 30px;
+    width: 80%;
+  }
+  header h1 .span1 {
+    font-size: 50px;
+  }
+  header h1 .span2 {
+    font-size: 70px;
+  }
+  header h1 .span3 {
+    font-size: 50px;
+  }
+  header h1 .span4 {
+    font-size: 50px;
+  }
+}
