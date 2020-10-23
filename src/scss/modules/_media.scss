@@ -12,6 +12,13 @@
         font-size: 20px;
     }
     
+    #sectionBookTable{
+        padding: 0;
+    }
+
+    .formBook{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:320px) and (max-width:599px){
@@ -71,6 +78,47 @@
         img:nth-child(3){
             height: 0;
         }
+    }
+
+    #sectionMeetChef{
+        img:nth-child(1){
+            width: 100%;
+        }
+    }
+
+    #sectionBookTable{
+        padding: 0;
+    }
+
+    #titreBookTable{
+        img:nth-child(1){
+            height: 0;
+        }
+
+        img:nth-child(2){
+            width: 300px;
+        }
+
+        img:nth-child(3){
+            height: 0;
+        }
+    }
+
+    .form-control{
+        width: 300px;
+    }
+
+    .form-group{
+        display: flex;
+        justify-content: center;
+    }
+
+    .formBook{
+        width: 100%;
+    }
+
+    .d-book{
+        flex-direction: column;
     }
 }
 

@@ -15942,7 +15942,7 @@ nav a {
 
 .spanOur {
   color: #c53a41;
-  font-size: 60px;
+  font-size: 60px !important;
 }
 
 #titreMenu {
@@ -16039,9 +16039,31 @@ nav a {
   justify-content: space-between;
 }
 
-.formBook {
-  width: 50%;
+.fondBlancBook {
+  width: 90%;
   margin: 0 auto;
+  background-color: white;
+}
+
+.formBook {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/book_table_bg.jpg");
+  background-size: cover;
+}
+
+.form-control {
+  border-radius: 1rem;
+  height: 50px;
+}
+
+.boutonFormBook {
+  border-radius: 50px;
+  padding: 20px;
+  border: none;
+  background-color: #c53a41;
+  color: white;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -16052,6 +16074,12 @@ nav a {
   #titreStory p {
     width: 80%;
     font-size: 20px;
+  }
+  #sectionBookTable {
+    padding: 0;
+  }
+  .formBook {
+    width: 100%;
   }
 }
 
@@ -16099,5 +16127,33 @@ nav a {
   }
   #finSectionMenu img:nth-child(3) {
     height: 0;
+  }
+  #sectionMeetChef img:nth-child(1) {
+    width: 100%;
+  }
+  #sectionBookTable {
+    padding: 0;
+  }
+  #titreBookTable img:nth-child(1) {
+    height: 0;
+  }
+  #titreBookTable img:nth-child(2) {
+    width: 300px;
+  }
+  #titreBookTable img:nth-child(3) {
+    height: 0;
+  }
+  .form-control {
+    width: 300px;
+  }
+  .form-group {
+    display: flex;
+    justify-content: center;
+  }
+  .formBook {
+    width: 100%;
+  }
+  .d-book {
+    flex-direction: column;
   }
 }
