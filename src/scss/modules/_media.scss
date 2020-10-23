@@ -19,6 +19,10 @@
     .formBook{
         width: 100%;
     }
+
+    #sectionBlog{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width:320px) and (max-width:599px){
@@ -119,6 +123,14 @@
 
     .d-book{
         flex-direction: column;
+    }
+
+    #sectionBlog{
+        flex-wrap: wrap;
+    }
+
+    .imgblogTitre{
+        bottom: 0;
     }
 }
 

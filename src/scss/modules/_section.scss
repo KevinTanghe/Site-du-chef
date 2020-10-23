@@ -165,3 +165,36 @@
 .d-book{
 
 }
+
+#sectionBlog{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card{
+    border: none;
+}
+
+.imgBlog{
+    border-radius: 50px;
+    border: 5px solid lightgray;
+}
+
+.imgblogTitre{
+    position: relative;
+    bottom: 40px;
+    background-color: $couleur1;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+.spanBlog{
+    font-size: 30px;
+    font-weight: bold;
+}
+

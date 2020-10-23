@@ -16066,6 +16066,36 @@ nav a {
   color: white;
 }
 
+#sectionBlog {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: none;
+}
+
+.imgBlog {
+  border-radius: 50px;
+  border: 5px solid lightgray;
+}
+
+.imgblogTitre {
+  position: relative;
+  bottom: 40px;
+  background-color: #c53a41;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.spanBlog {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   #sectionStory {
     padding: 0;
@@ -16080,6 +16110,9 @@ nav a {
   }
   .formBook {
     width: 100%;
+  }
+  #sectionBlog {
+    flex-wrap: wrap;
   }
 }
 
@@ -16155,5 +16188,11 @@ nav a {
   }
   .d-book {
     flex-direction: column;
+  }
+  #sectionBlog {
+    flex-wrap: wrap;
+  }
+  .imgblogTitre {
+    bottom: 0;
   }
 }
