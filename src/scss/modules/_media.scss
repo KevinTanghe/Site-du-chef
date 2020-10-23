@@ -1,0 +1,73 @@
+
+// Média des sections
+
+@media screen and (min-width:600px) and (max-width:1023px){
+    #sectionStory{
+        padding: 0;
+        padding-top: 50px;
+    }
+
+    #titreStory p{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:599px){
+    #sectionStory{
+        padding: 0;
+        padding-top: 50px;
+    }
+    .familyCourg{
+        font-size: 20px;
+    }
+
+    .colMenu{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-left: 70px;
+        p{
+            width:100%;
+        }
+    }
+    #titreStory{
+        img:nth-child(1){
+            height: 0;
+        }
+        img:nth-child(2){
+            width: 300px;
+        }
+
+        img:nth-child(3){
+            height: 0;
+        }
+
+        p{
+            width: 80%;
+        }
+    }
+
+    #titreMenu{
+        .col-2{
+            max-width: 32%;
+        }
+        img:nth-child(2){
+            width: 300px;
+        }
+        .list-group{
+            flex-direction: row;
+        }
+    }
+
+    #finSectionMenu{
+        img:first-of-type{
+            height: 0;
+        }
+
+        img:nth-child(3){
+            height: 0;
+        }
+    }
+}
+
