@@ -16029,6 +16029,7 @@ nav a {
 #sectionBookTable {
   background-image: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg");
   padding: 100px;
+  padding-bottom: 0;
 }
 
 #titreBookTable {
@@ -16040,8 +16041,6 @@ nav a {
 }
 
 .fondBlancBook {
-  width: 90%;
-  margin: 0 auto;
   background-color: white;
 }
 
@@ -16066,6 +16065,10 @@ nav a {
   color: white;
 }
 
+.card {
+  border: none;
+}
+
 #sectionBlog {
   width: 80%;
   margin: 0 auto;
@@ -16073,8 +16076,11 @@ nav a {
   justify-content: center;
 }
 
-.card {
-  border: none;
+#titreBlog {
+  padding: 100px;
+  padding-bottom: 50px;
+  padding-top: 0;
+  background-image: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg");
 }
 
 .imgBlog {
@@ -16096,6 +16102,42 @@ nav a {
   font-weight: bold;
 }
 
+#finSectionBlog {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sectionTesti {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/testimonials_background.jpg");
+}
+
+#sectionTesti h2 {
+  padding-top: 100px;
+}
+
+#sectionTesti h4 {
+  color: #c53a41;
+}
+
+.padTesti {
+  padding-bottom: 100px;
+}
+
+.imgTesti {
+  border-radius: 50%;
+  border: lightgray solid 10px;
+  height: 200px;
+}
+
+.rectangleTesti {
+  border: 1px white solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   #sectionStory {
     padding: 0;
@@ -16107,12 +16149,19 @@ nav a {
   }
   #sectionBookTable {
     padding: 0;
+    padding-top: 50px;
   }
   .formBook {
     width: 100%;
   }
   #sectionBlog {
     flex-wrap: wrap;
+  }
+  #titreBlog {
+    padding: 30px;
+  }
+  #finSectionBlog .ligneDeco {
+    width: 400px;
   }
 }
 
@@ -16194,5 +16243,14 @@ nav a {
   }
   .imgblogTitre {
     bottom: 0;
+  }
+  #titreBlog {
+    padding: 0;
+  }
+  #finSectionBlog img:nth-child(1) {
+    height: 0;
+  }
+  #finSectionBlog img:nth-child(3) {
+    height: 0;
   }
 }

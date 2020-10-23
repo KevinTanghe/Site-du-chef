@@ -14,6 +14,7 @@
     
     #sectionBookTable{
         padding: 0;
+        padding-top: 50px;
     }
 
     .formBook{
@@ -22,6 +23,17 @@
 
     #sectionBlog{
         flex-wrap: wrap;
+    }
+
+    #titreBlog{
+        padding: 30px;
+    }
+
+    #finSectionBlog{
+        
+        .ligneDeco{
+            width: 400px;
+        }
     }
 }
 
@@ -132,5 +144,21 @@
     .imgblogTitre{
         bottom: 0;
     }
+
+    #titreBlog{
+        padding: 0;
+    }
+    #finSectionBlog{
+        img:nth-child(1){
+            height: 0;
+        }
+        img:nth-child(3){
+            height: 0;
+        }
+    }
+
+
+
+    
 }
 
