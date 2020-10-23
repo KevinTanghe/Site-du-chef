@@ -15933,9 +15933,11 @@ nav a {
 }
 
 #titreStory p {
-  width: 30%;
+  width: 45%;
   margin: auto;
   padding-bottom: 100px;
+  color: grey;
+  font-size: 20px;
 }
 
 .spanOur {
@@ -16024,6 +16026,24 @@ nav a {
   padding-bottom: 100px;
 }
 
+#sectionBookTable {
+  background-image: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg");
+  padding: 100px;
+}
+
+#titreBookTable {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formBook {
+  width: 50%;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   #sectionStory {
     padding: 0;
@@ -16031,6 +16051,7 @@ nav a {
   }
   #titreStory p {
     width: 80%;
+    font-size: 20px;
   }
 }
 
@@ -16062,6 +16083,7 @@ nav a {
   }
   #titreStory p {
     width: 80%;
+    font-size: 15px;
   }
   #titreMenu .col-2 {
     max-width: 32%;
