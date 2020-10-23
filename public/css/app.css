@@ -16012,6 +16012,18 @@ nav a {
   margin: 0 auto;
 }
 
+#sectionMeetChef {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/team_background.jpg");
+}
+
+#sectionMeetChef h2 {
+  padding-top: 100px;
+}
+
+.ligneDecoMeet {
+  padding-bottom: 100px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   #sectionStory {
     padding: 0;
