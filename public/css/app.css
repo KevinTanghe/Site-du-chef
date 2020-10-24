@@ -15958,7 +15958,7 @@ nav a {
 
 .familyCourg {
   font-family: courgette;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .list-group-item-action:focus {
@@ -16110,6 +16110,7 @@ nav a {
 
 #sectionTesti {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/testimonials_background.jpg");
+  background-size: cover;
 }
 
 #sectionTesti h2 {
@@ -16118,6 +16119,16 @@ nav a {
 
 #sectionTesti h4 {
   color: #c53a41;
+}
+
+.containerTesti {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.rowTesti {
+  display: flex;
 }
 
 .padTesti {
@@ -16131,11 +16142,15 @@ nav a {
 }
 
 .rectangleTesti {
-  border: 1px white solid;
+  border: 1px rgba(255, 255, 255, 0.678) solid;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.rectangleTesti p {
+  width: 80%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -16161,7 +16176,18 @@ nav a {
     padding: 30px;
   }
   #finSectionBlog .ligneDeco {
-    width: 400px;
+    width: 300px;
+  }
+  .rowTesti {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  .rowTesti .mr-5 {
+    margin-right: 0 !important;
+  }
+  .rowTesti div {
+    margin-bottom: 20px;
   }
 }
 
@@ -16225,6 +16251,9 @@ nav a {
   #titreBookTable img:nth-child(3) {
     height: 0;
   }
+  .ligneDeco {
+    width: 300px;
+  }
   .form-control {
     width: 300px;
   }
@@ -16252,5 +16281,16 @@ nav a {
   }
   #finSectionBlog img:nth-child(3) {
     height: 0;
+  }
+  .rowTesti {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  .rowTesti .mr-5 {
+    margin-right: 0 !important;
+  }
+  .rowTesti div {
+    margin-bottom: 20px;
   }
 }

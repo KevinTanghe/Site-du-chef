@@ -32,10 +32,25 @@
     #finSectionBlog{
         
         .ligneDeco{
-            width: 400px;
+            width: 300px;
+        }
+    }
+
+    .rowTesti{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        .mr-5{
+            margin-right: 0 !important;
+        }
+        div{
+            margin-bottom: 20px;
         }
     }
 }
+
+
+
 
 @media screen and (min-width:320px) and (max-width:599px){
     #sectionStory{
@@ -119,7 +134,9 @@
             height: 0;
         }
     }
-
+    .ligneDeco{
+        width: 300px;
+    }
     .form-control{
         width: 300px;
     }
@@ -157,7 +174,21 @@
         }
     }
 
+    #sectionTesti{
+        
+    }
 
+    .rowTesti{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        .mr-5{
+            margin-right: 0 !important;
+        }
+        div{
+            margin-bottom: 20px;
+        }
+    }
 
     
 }
