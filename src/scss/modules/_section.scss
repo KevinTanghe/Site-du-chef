@@ -264,3 +264,64 @@
     }
 }
 
+
+// fin de la section testi
+
+// Début de la section contact
+
+#sectionContact{
+    background-image: url('/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg');
+
+    h2{
+        padding-top: 100px;
+    }
+    img{
+        padding-bottom: 20px;
+    }
+}
+
+#containerContact{
+    width: 28%;
+    margin: 0 auto;
+    background-color: $couleur1;
+    border-radius: 20px;
+    p{
+        width: 90%;
+        margin: auto;
+        border-bottom: white 1px solid;
+        margin-bottom: 20px;
+    }
+    a{
+        width: 90%;
+        border-bottom: white 1px solid;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+
+
+.fa-map-marker-alt, .fa-phone-alt, .fa-envelope{
+    font-size: 50px;
+}
+
+.rowContact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#bgFooterFin{
+    background: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/footer_bottom_decoration_img.png");
+    height: 10px;
+    width: 100%;
+}
+
+// Fin de la section Cotact 
+
+// Début du footer
+footer{
+    background-image: url('');
+}
