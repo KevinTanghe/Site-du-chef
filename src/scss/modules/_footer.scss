@@ -1,0 +1,51 @@
+.bgFooterFin{
+    background-image: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/footer_bottom_decoration_img.png");
+    height: 15px;
+    width: 100%;
+}
+
+footer{
+    background-image: url('/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/footer_background.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+#containerFooter{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.boutonFooter{
+    background-color: $couleur1;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: white solid 1px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.colFooter{
+    flex: 1;
+    padding-bottom: 50px;
+    img{
+        height: 100px;
+    }
+}
+
+.fa-facebook-f, .fa-google-plus-g, .fa-pinterest-p, .fa-linkedin-in{
+    font-size: 30px;
+}
+
+#copyright{
+    background-color: $couleur1;
+    p{
+        margin: 0;
+        text-align: center;
+        padding: 45px;
+        color: white;
+    }
+}
