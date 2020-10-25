@@ -2,6 +2,8 @@
 // Média des sections
 
 @media screen and (min-width:600px) and (max-width:1023px){
+    // Début de la section Story
+    
     #sectionStory{
         padding: 0;
         padding-top: 50px;
@@ -11,6 +13,9 @@
         width: 80%;
         font-size: 20px;
     }
+
+    // fin de la sectionStory
+    // Début de la section Book Table
     
     #sectionBookTable{
         padding: 0;
@@ -20,6 +25,9 @@
     .formBook{
         width: 100%;
     }
+
+    // Fin de la section Story
+    // Début de la section Blog
 
     #sectionBlog{
         flex-wrap: wrap;
@@ -36,6 +44,9 @@
         }
     }
 
+    // Fin de la section blog
+    // Début de la section Testi
+
     .rowTesti{
         flex-wrap: wrap;
         justify-content: center;
@@ -48,11 +59,15 @@
         }
     }
 
+    // Fin de la section testi
+    // Début de la section contact
+
     #containerContact{
         width: 60%;
     }
 
-
+    // Fin de la section contact
+    // Footer
 
     #containerFooter{
         flex-direction: column;
@@ -63,6 +78,8 @@
 
 
 @media screen and (min-width:320px) and (max-width:599px){
+    // Début de la section story
+    
     #sectionStory{
         padding: 0;
         padding-top: 50px;
@@ -98,6 +115,9 @@
             font-size: 15px;
         }
     }
+
+    // Fin de la section story
+    // Début de la section menu
 
     #titreMenu{
         .col-2{
@@ -144,6 +164,10 @@
             height: 0;
         }
     }
+
+    // Fin de la section menu
+    // Début de la section Book Table
+
     .ligneDeco{
         width: 300px;
     }
@@ -163,6 +187,9 @@
     .d-book{
         flex-direction: column;
     }
+
+    // Fin de la section book table
+    // Début de la section blog
 
     #sectionBlog{
         flex-wrap: wrap;
@@ -184,7 +211,8 @@
         }
     }
 
-    
+    // Fin de la section blog
+    // Début de la section testi
 
     .rowTesti{
         flex-wrap: wrap;
@@ -198,12 +226,15 @@
         }
     }
 
+    // Fin de la section testi
+    // Début de la section contact
+
     #containerContact{
         width: 95%;
     }
 
-    
-
+    // Fin de la section testi
+    // Footer
 
     #containerFooter{
         flex-direction: column;
