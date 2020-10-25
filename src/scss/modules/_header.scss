@@ -43,6 +43,8 @@ header{
         padding: 20px;
         border-radius: 50px;
         border: none;
+        margin: 20px;
+        margin-bottom: 300px;
     }
 
     .bouton2{
@@ -51,9 +53,23 @@ header{
         border: none;
         background-color:$couleur1;
         color: white;
+        margin: 20px;
+        margin-bottom: 300px;
 
     }
 }
+
+.carousel-indicators{
+    
+    li{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: grey;
+        border: white 5px solid;
+    }
+}
+
 
 .bgheaderfin{
     background: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/bottom_decoration_img.png");

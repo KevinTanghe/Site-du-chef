@@ -15825,6 +15825,8 @@ header .bouton1 {
   padding: 20px;
   border-radius: 50px;
   border: none;
+  margin: 20px;
+  margin-bottom: 300px;
 }
 
 header .bouton2 {
@@ -15833,6 +15835,16 @@ header .bouton2 {
   border: none;
   background-color: #c53a41;
   color: white;
+  margin: 20px;
+  margin-bottom: 300px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  border: white 5px solid;
 }
 
 .bgheaderfin {
@@ -15956,6 +15968,11 @@ nav a {
   font-size: 50px;
 }
 
+.menuTitre {
+  font-family: courgette;
+  font-size: 30px;
+}
+
 .familyCourg {
   font-family: courgette;
   font-size: 50px;
@@ -15995,6 +16012,7 @@ nav a {
   flex: 1;
   width: 100%;
   padding: 10px;
+  border-bottom: 1px solid lightgray;
 }
 
 .imgMenu {
