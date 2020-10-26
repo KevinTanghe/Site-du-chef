@@ -117,7 +117,7 @@
 #sectionMeetChef{
     background: linear-gradient(
             rgba(0, 0, 0, 0.75), 
-            rgba(0, 0, 0, 0.75)),url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/team_background.jpg");
+            rgba(0, 0, 0, 0.75)),url("../images/team_background.jpg");
     h2{
         padding-top: 100px;
     }
@@ -130,7 +130,7 @@
 // début de la section de Book Table
 
 #sectionBookTable{
-    background-image: url('/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg');
+    background-image: url('../images/main_bg.jpg');
     padding: 100px;
     padding-bottom: 0;
 }
@@ -151,7 +151,7 @@
     width: 60%;
     margin: 0 auto;
     border-radius: 30px;
-    background: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/book_table_bg.jpg");
+    background: url("../images/book_table_bg.jpg");
     background-size: cover;
 }
 
@@ -191,7 +191,7 @@
     padding: 100px;
     padding-bottom: 50px;
     padding-top: 0;
-    background-image: url('/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg');
+    background-image: url('../images/main_bg.jpg');
 }
 
 .imgBlog{
@@ -228,7 +228,7 @@
 #sectionTesti{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.55), 
-        rgba(0, 0, 0, 0.55)),url('/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/testimonials_background.jpg');
+        rgba(0, 0, 0, 0.55)),url('../images/testimonials_background.jpg');
         background-size: cover;
     h2{
         padding-top: 100px;
@@ -277,7 +277,7 @@
 // Début de la section contact
 
 #sectionContact{
-    background-image: url('/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/main_bg.jpg');
+    background-image: url('../images/main_bg.jpg');
 
     h2{
         padding-top: 100px;
@@ -319,8 +319,6 @@
     flex-direction: column;
     
 }
-
-
 
 // Fin de la section Contact 
 

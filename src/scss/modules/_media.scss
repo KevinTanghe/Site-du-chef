@@ -131,6 +131,10 @@
         }
     }
 
+    .menuTitre{
+        font-size: 20px;
+    }
+
     #finSectionMenu{
         img:first-of-type{
             height: 0;
@@ -140,13 +144,13 @@
             height: 0;
         }
     }
-
+    // Fin de la section menu
     #sectionMeetChef{
         img:nth-child(1){
             width: 100%;
         }
     }
-
+    // Début de la section Book Table
     #sectionBookTable{
         padding: 0;
     }
@@ -165,8 +169,8 @@
         }
     }
 
-    // Fin de la section menu
-    // Début de la section Book Table
+    
+   
 
     .ligneDeco{
         width: 300px;
