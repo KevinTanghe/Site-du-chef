@@ -31,13 +31,17 @@
 
         // Fin de la section story
         // Début de la section menu
-#titreMenu{
+.titreMenu{
     background-color: white;
     width: 90%;
     margin:0 auto;
     h2{
         font-family: courgette;
         font-size: 50px;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
     }
     
 }
@@ -135,7 +139,7 @@
     padding-bottom: 0;
 }
 
-#titreBookTable{
+.titreBookTable{
     width: 90%;
     margin: 0 auto;
     background-color: white;
@@ -145,6 +149,8 @@
 
 .fondBlancBook{
     background-color: white;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .formBook{
@@ -162,7 +168,7 @@
 
 .boutonFormBook{
     border-radius: 50px;
-    padding: 20px;
+    padding: 15px;
     border: none;
     background-color: $couleur1;
     color: white;
@@ -214,11 +220,17 @@
     font-weight: bold;
 }
 
-#finSectionBlog{
+.finSectionBlog{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    
+    width: 90%;
+    margin: 0 auto;
+}
+
+.textBlog{
+    width: 80%;
+    margin: 0 auto;
 }
 
 // Fin de la section Blog

@@ -15957,15 +15957,20 @@ nav a {
   font-size: 60px !important;
 }
 
-#titreMenu {
+.titreMenu {
   background-color: white;
   width: 90%;
   margin: 0 auto;
 }
 
-#titreMenu h2 {
+.titreMenu h2 {
   font-family: courgette;
   font-size: 50px;
+}
+
+.titreMenu .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .menuTitre {
@@ -16050,7 +16055,7 @@ nav a {
   padding-bottom: 0;
 }
 
-#titreBookTable {
+.titreBookTable {
   width: 90%;
   margin: 0 auto;
   background-color: white;
@@ -16060,6 +16065,8 @@ nav a {
 
 .fondBlancBook {
   background-color: white;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .formBook {
@@ -16077,7 +16084,7 @@ nav a {
 
 .boutonFormBook {
   border-radius: 50px;
-  padding: 20px;
+  padding: 15px;
   border: none;
   background-color: #c53a41;
   color: white;
@@ -16120,10 +16127,17 @@ nav a {
   font-weight: bold;
 }
 
-#finSectionBlog {
+.finSectionBlog {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.textBlog {
+  width: 80%;
+  margin: 0 auto;
 }
 
 #sectionTesti {
@@ -16215,13 +16229,13 @@ nav a {
 }
 
 .bgFooterFin {
-  background-image: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/footer_bottom_decoration_img.png");
+  background-image: url("../images/footer_bottom_decoration_img.png");
   height: 15px;
   width: 100%;
 }
 
 footer {
-  background-image: url("/home/tanghe/Bureau/codingSchool15/9-Site-du-chef/site_du_chef/public/images/footer_background.jpg");
+  background-image: url("../images/footer_background.jpg");
   background-size: cover;
   width: 100%;
 }
@@ -16276,20 +16290,30 @@ footer {
     width: 80%;
     font-size: 20px;
   }
+  .menuTitre {
+    font-size: 20px;
+  }
+  .titreBookTable {
+    padding-bottom: 100px;
+  }
   #sectionBookTable {
     padding: 0;
     padding-top: 50px;
   }
   .formBook {
-    width: 100%;
+    width: 75%;
   }
   #sectionBlog {
     flex-wrap: wrap;
   }
   #titreBlog {
-    padding: 30px;
+    padding: 0;
+    padding-bottom: 50px;
   }
-  #finSectionBlog .ligneDeco {
+  .textBlog {
+    width: 70%;
+  }
+  .finSectionBlog .ligneDeco {
     width: 300px;
   }
   .rowTesti {
@@ -16341,17 +16365,17 @@ footer {
     width: 80%;
     font-size: 15px;
   }
-  #titreMenu .col-2 {
+  .titreMenu .col-2 {
     max-width: 32%;
   }
-  #titreMenu img:nth-child(2) {
+  .titreMenu img:nth-child(2) {
     width: 300px;
   }
-  #titreMenu .list-group {
+  .titreMenu .list-group {
     flex-direction: row;
   }
   .menuTitre {
-    font-size: 20px;
+    font-size: 15px;
   }
   #finSectionMenu img:first-of-type {
     height: 0;
@@ -16365,13 +16389,13 @@ footer {
   #sectionBookTable {
     padding: 0;
   }
-  #titreBookTable img:nth-child(1) {
+  .titreBookTable img:nth-child(1) {
     height: 0;
   }
-  #titreBookTable img:nth-child(2) {
+  .titreBookTable img:nth-child(2) {
     width: 300px;
   }
-  #titreBookTable img:nth-child(3) {
+  .titreBookTable img:nth-child(3) {
     height: 0;
   }
   .ligneDeco {
@@ -16393,16 +16417,25 @@ footer {
   #sectionBlog {
     flex-wrap: wrap;
   }
+  .textBlog {
+    width: 90%;
+  }
   .imgblogTitre {
-    bottom: 0;
+    font-size: 15px;
+    padding: 6px;
+    width: 80%;
+    text-align: center;
+  }
+  .spanBlog {
+    font-size: 20px;
   }
   #titreBlog {
     padding: 0;
   }
-  #finSectionBlog img:nth-child(1) {
+  .finSectionBlog img:nth-child(1) {
     height: 0;
   }
-  #finSectionBlog img:nth-child(3) {
+  .finSectionBlog img:nth-child(3) {
     height: 0;
   }
   .rowTesti {

@@ -14,16 +14,24 @@
         font-size: 20px;
     }
 
+
+    .menuTitre{
+        font-size: 20px;
+    }
     // fin de la sectionStory
     // Début de la section Book Table
     
+    .titreBookTable{
+        padding-bottom: 100px;
+    }
+
     #sectionBookTable{
         padding: 0;
         padding-top: 50px;
     }
 
     .formBook{
-        width: 100%;
+        width: 75%;
     }
 
     // Fin de la section Story
@@ -34,10 +42,15 @@
     }
 
     #titreBlog{
-        padding: 30px;
+        padding: 0;
+        padding-bottom: 50px;
     }
 
-    #finSectionBlog{
+    .textBlog{
+        width: 70%;
+    }
+
+    .finSectionBlog{
         
         .ligneDeco{
             width: 300px;
@@ -119,7 +132,7 @@
     // Fin de la section story
     // Début de la section menu
 
-    #titreMenu{
+    .titreMenu{
         .col-2{
             max-width: 32%;
         }
@@ -132,7 +145,7 @@
     }
 
     .menuTitre{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #finSectionMenu{
@@ -155,7 +168,7 @@
         padding: 0;
     }
 
-    #titreBookTable{
+    .titreBookTable{
         img:nth-child(1){
             height: 0;
         }
@@ -199,14 +212,25 @@
         flex-wrap: wrap;
     }
 
+    .textBlog{
+        width: 90%;
+    }
+
     .imgblogTitre{
-        bottom: 0;
+        font-size: 15px;
+        padding: 6px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .spanBlog{
+        font-size: 20px;
     }
 
     #titreBlog{
         padding: 0;
     }
-    #finSectionBlog{
+    .finSectionBlog{
         img:nth-child(1){
             height: 0;
         }
